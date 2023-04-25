@@ -1,7 +1,7 @@
 import axios from "axios";
 // ----------------------------------------------------------------------
 
-const HOST_API = "http://www.omdbapi.com/";
+const HOST_API = "https://www.omdbapi.com";
 const axiosInstance = axios.create({
   baseURL: HOST_API,
 });
